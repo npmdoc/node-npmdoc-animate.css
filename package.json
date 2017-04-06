@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"animate.css",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "animate.css",
+    "description": "api documentation for [animate.css (v3.5.2)](http://daneden.me/animate) [![npm package](https://img.shields.io/npm/v/npmdoc-animate.css.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-animate.css) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-animate.css.svg)](https://travis-ci.org/npmdoc/node-npmdoc-animate.css)",
     "devDependencies": {
         "animate.css": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-animate.css",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-animate.css",
+    "keywords": [
+        "documentation",
+        "animate.css"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_animate.css.js",
+    "name": "npmdoc-animate.css",
+    "nameAlias": "npmdoc_animate_css",
+    "nameOriginal": "npmdoc-animate.css",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-animate.css"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
