@@ -1,9 +1,14 @@
-# api documentation for  [animate.css (v3.5.2)](http://daneden.me/animate)  [![npm package](https://img.shields.io/npm/v/npmdoc-animate.css.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-animate.css) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-animate.css.svg)](https://travis-ci.org/npmdoc/node-npmdoc-animate.css)
+# npmdoc-animate.css
+
+#### api documentation for  [animate.css (v3.5.2)](http://daneden.me/animate)  [![npm package](https://img.shields.io/npm/v/npmdoc-animate.css.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-animate.css) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-animate.css.svg)](https://travis-ci.org/npmdoc/node-npmdoc-animate.css)
+
 #### *Just-add-water CSS animation*
 
-[![NPM](https://nodei.co/npm/animate.css.png?downloads=true)](https://www.npmjs.com/package/animate.css)
+[![NPM](https://nodei.co/npm/animate.css.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/animate.css)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-animate.css/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-animate.css_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-animate.css/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-animate.css/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-animate.css/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-animate.css/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-animate.css/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-animate.css/build/screenCapture.npmPackageListing.svg)
 
@@ -53,13 +58,11 @@
     "main": "animate.css",
     "maintainers": [
         {
-            "name": "dte",
-            "email": "dan.eden@me.com"
+            "name": "dte"
         }
     ],
     "name": "animate.css",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/daneden/animate.css.git"
@@ -72,16 +75,6 @@
     "version": "3.5.2"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module animate.css](#apidoc.module.animate.css)
-
-
-
-# <a name="apidoc.module.animate.css"></a>[module animate.css](#apidoc.module.animate.css)
 
 
 
