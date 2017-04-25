@@ -1,6 +1,6 @@
 # npmdoc-animate.css
 
-#### api documentation for  [animate.css (v3.5.2)](http://daneden.me/animate)  [![npm package](https://img.shields.io/npm/v/npmdoc-animate.css.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-animate.css) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-animate.css.svg)](https://travis-ci.org/npmdoc/node-npmdoc-animate.css)
+#### basic api documentation for  [animate.css (v3.5.2)](http://daneden.me/animate)  [![npm package](https://img.shields.io/npm/v/npmdoc-animate.css.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-animate.css) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-animate.css.svg)](https://travis-ci.org/npmdoc/node-npmdoc-animate.css)
 
 #### *Just-add-water CSS animation*
 
@@ -72,7 +72,8 @@
         "main": "./animate.css"
     },
     "style": "./animate.css",
-    "version": "3.5.2"
+    "version": "3.5.2",
+    "bin": {}
 }
 ```
 
